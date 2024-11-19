@@ -1,0 +1,28 @@
+version: "3.9"
+
+services:
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb-container
+    ports:
+      - "27017:27017" # Expose MongoDB on the default port
+    volumes:
+      - mongodb-data:/data/db # Persist data in a named volume
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root # Set MongoDB root username
+      MONGO_INITDB_ROOT_PASSWORD: example # Set MongoDB root password
+    restart: unless-stopped
+
+  rabbitmq:
+    image: rabbitmq:management
+    container_name: rabbitmq-container
+    ports:
+      - "5672:5672" # Default port for RabbitMQ messaging
+      - "15672:15672" # Port for RabbitMQ Management UI
+    environment:
+      RABBITMQ_DEFAULT_USER: user # Set RabbitMQ username
+      RABBITMQ_DEFAULT_PASS: password # Set RabbitMQ password
+    restart: unless-stopped
+
+volumes:
+  mongodb-data:
