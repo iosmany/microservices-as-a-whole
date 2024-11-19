@@ -40,3 +40,9 @@
 /Microservices/.vs/ProjectEvaluation
 /Microservices/bin/Debug
 /Microservices/obj
+/Microservices/Microservices.Core.Domain.Tests/obj
+/Microservices/Microservices.Core.Domain.Tests/bin/Debug/net8.0
+/Microservices/Microservices.Infrastructure/obj
+/Microservices/Microservices.Persistence/bin/Debug/net8.0
+/Microservices/Microservices.Persistence/obj
+/Microservices/Microservices.Infrastructure/bin/Debug/net8.0

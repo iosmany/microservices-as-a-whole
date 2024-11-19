@@ -7,7 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Microservices.Base\Microservices.Base.csproj" />
     <ProjectReference Include="..\Microservices.Core.Public\Microservices.Core.Public.csproj" />
+    <ProjectReference Include="..\Microservices.Persistence\Microservices.Persistence.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Domain\Services\" />
   </ItemGroup>
 
 </Project>
