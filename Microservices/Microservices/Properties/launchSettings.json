@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Microservices": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

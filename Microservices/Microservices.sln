@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservices", "Microservices\Microservices.csproj", "{5F13DE60-4309-4730-8812-A2E35D0AC5D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservices", "Microservices\Microservices.csproj", "{5F13DE60-4309-4730-8812-A2E35D0AC5D3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{06F39449-F451-4C7A-8135-DB04AB4950DD}"
 EndProject
@@ -20,37 +20,39 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logistics", "Logistics", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{6C7E7FF8-2D97-45D7-AC09-74F92B0947EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Webapi", "App.Web\App.Webapi.csproj", "{B40A7AD0-685F-44FC-8354-C574931237F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.Webapi", "App.Web\App.Webapi.csproj", "{B40A7AD0-685F-44FC-8354-C574931237F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor.CustomerReports", "Blazor.CustomerReports\Blazor.CustomerReports.csproj", "{00BBD1F3-1067-48D9-9394-61543D009E8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazor.CustomerReports", "Blazor.CustomerReports\Blazor.CustomerReports.csproj", "{00BBD1F3-1067-48D9-9394-61543D009E8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservices.Base", "Microservices.Base\Microservices.Base.csproj", "{05F2976B-DA7F-491F-8594-5F5A0DB62EFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservices.Base", "Microservices.Base\Microservices.Base.csproj", "{05F2976B-DA7F-491F-8594-5F5A0DB62EFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservices.Integrations", "Microservices.Integrations\Microservices.Integrations.csproj", "{206AE28D-B0C6-45F7-982E-B9827844E8C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservices.Integrations", "Microservices.Integrations\Microservices.Integrations.csproj", "{206AE28D-B0C6-45F7-982E-B9827844E8C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservices.Core", "Microservices.Core\Microservices.Core.csproj", "{1F7BD09E-7A40-4075-B5D3-02680667BCFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservices.Core", "Microservices.Core\Microservices.Core.csproj", "{1F7BD09E-7A40-4075-B5D3-02680667BCFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservices.Core.Domain", "Microservices.Core.Domain\Microservices.Core.Domain.csproj", "{9CC33EC8-C01A-4F92-BE3A-FCC52717EDFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservices.Core.Domain", "Microservices.Core.Domain\Microservices.Core.Domain.csproj", "{9CC33EC8-C01A-4F92-BE3A-FCC52717EDFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservices.Core.Public", "Microservices.Core.Public\Microservices.Core.Public.csproj", "{C369C1FC-C8F0-4078-B490-9F23F8784B42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservices.Core.Public", "Microservices.Core.Public\Microservices.Core.Public.csproj", "{C369C1FC-C8F0-4078-B490-9F23F8784B42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservices.Customers", "Microservices.Customers\Microservices.Customers.csproj", "{7191159F-4A56-4A68-BBB7-B61F2E2FBF9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservices.Customers", "Microservices.Customers\Microservices.Customers.csproj", "{7191159F-4A56-4A68-BBB7-B61F2E2FBF9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservices.Customers.Domain", "Microservices.Customers.Domain\Microservices.Customers.Domain.csproj", "{368B8200-AB0C-43FA-95AE-81AF25B424F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservices.Customers.Domain", "Microservices.Customers.Domain\Microservices.Customers.Domain.csproj", "{368B8200-AB0C-43FA-95AE-81AF25B424F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservices.Customers.Public", "Microservices.Customers.Public\Microservices.Customers.Public.csproj", "{34A50E49-32DA-4430-9C13-3A8157494A1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservices.Customers.Public", "Microservices.Customers.Public\Microservices.Customers.Public.csproj", "{34A50E49-32DA-4430-9C13-3A8157494A1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservices.Providers", "Microservices.Providers\Microservices.Providers.csproj", "{A391983A-FC33-40DC-8A40-3974826A7B24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservices.Providers", "Microservices.Providers\Microservices.Providers.csproj", "{A391983A-FC33-40DC-8A40-3974826A7B24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservices.Providers.Domain", "Microservices.Providers.Domain\Microservices.Providers.Domain.csproj", "{1AE0BB5D-29AB-4356-B859-B29C03C54C5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservices.Providers.Domain", "Microservices.Providers.Domain\Microservices.Providers.Domain.csproj", "{1AE0BB5D-29AB-4356-B859-B29C03C54C5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservices.Providers.Public", "Microservices.Providers.Public\Microservices.Providers.Public.csproj", "{56FA6D31-6D76-464A-9872-37824A197E9E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservices.Providers.Public", "Microservices.Providers.Public\Microservices.Providers.Public.csproj", "{56FA6D31-6D76-464A-9872-37824A197E9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservices.Logistics", "Microservices.Logistics\Microservices.Logistics.csproj", "{2BACF545-612E-4A78-9007-4006C06B6550}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservices.Logistics", "Microservices.Logistics\Microservices.Logistics.csproj", "{2BACF545-612E-4A78-9007-4006C06B6550}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservices.Logistics.Domain", "Microservices.Logistics.Domain\Microservices.Logistics.Domain.csproj", "{BCD5E4B7-DDCD-4F35-B27A-740E206B0EFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservices.Logistics.Domain", "Microservices.Logistics.Domain\Microservices.Logistics.Domain.csproj", "{BCD5E4B7-DDCD-4F35-B27A-740E206B0EFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservices.Logistics.Public", "Microservices.Logistics.Public\Microservices.Logistics.Public.csproj", "{5EB991E4-8260-4FEE-B64E-5B3FD2CADA0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservices.Logistics.Public", "Microservices.Logistics.Public\Microservices.Logistics.Public.csproj", "{5EB991E4-8260-4FEE-B64E-5B3FD2CADA0D}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{E293932C-B374-42BA-A9FE-A67687D27DC2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -126,6 +128,10 @@ Global
 		{5EB991E4-8260-4FEE-B64E-5B3FD2CADA0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EB991E4-8260-4FEE-B64E-5B3FD2CADA0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EB991E4-8260-4FEE-B64E-5B3FD2CADA0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E293932C-B374-42BA-A9FE-A67687D27DC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E293932C-B374-42BA-A9FE-A67687D27DC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E293932C-B374-42BA-A9FE-A67687D27DC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E293932C-B374-42BA-A9FE-A67687D27DC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

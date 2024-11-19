@@ -1,0 +1,35 @@
+version: '3.4'
+
+services:
+  core:
+    image: ${DOCKER_REGISTRY-}core
+    build:
+      context: .
+      dockerfile: Microservices.Core/Dockerfile
+
+  customers:
+    image: ${DOCKER_REGISTRY-}customers
+    build:
+      context: .
+      dockerfile: Microservices.Customers/Dockerfile
+
+  logistics:
+    image: ${DOCKER_REGISTRY-}logistics
+    build:
+      context: .
+      dockerfile: Microservices.Logistics/Dockerfile
+  
+  providers:
+    image: ${DOCKER_REGISTRY-}providers
+    build:
+      context: .
+      dockerfile: Microservices.Providers/Dockerfile
+
+  webapi:
+    image: ${DOCKER_REGISTRY-}webapi
+    build:
+      context: .
+      dockerfile: App.Web/Dockerfile
+
+
+
